@@ -1,0 +1,21 @@
+     CSS BACKGROUND
+/* I/Hình nền chính */
+body {
+    background-image: url("(...link)");
+    }
+/* II(I)/ Lặp theo chiều dọc= x, ngang= y , không lặp= no-repeat */
+body {
+    background-repeat: repeat-y;
+    background-repeat: repeat-x;
+    background-repeat: no-repeat;
+}
+/* III/ Căn lề bên trái, phải, chính giữa. */
+body {
+    background-position: top left;
+    background-position: top right;
+    background-position: center;
+}
+IV/ Giữ ảnh khi di chuyển
+body {
+    background-attachment: fixed;
+}
